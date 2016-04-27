@@ -1,11 +1,11 @@
 # weenix-script
 A Python script to help add dbg() message
 
-## HOW IT WORKS
+## How It Works
 
 If you want dbg() somewhere, you could left a special comment in a single line. This script will process all specified files, change these comments to dbg commands with unique stamps. After we set many these lines, we could check weenix's output and find if these dbg print exist or not. If exists, we change former dbg() to standard dbg() we want.
 
-## HOW TO USE
+## How To Use
 If you need a dbg() in example.c, simply type comment like
 
 `/* NEED CHECK [: some words] */` 
@@ -16,7 +16,7 @@ Next, `make clean` & `make`, run weenix and use `script` or `./weenix -n > recor
 
 Finally, run `./check.py -c [record] -f [c files] -t -t=[TAG NAME]`
 
-## EXAMPLE
+## Example
 - In kernel/foo/exmaple.c, we have
 ```
 if (ret) {
