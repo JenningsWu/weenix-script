@@ -3,7 +3,7 @@ A Python script to help add dbg() message
 
 ## HOW IT WORKS
 
-If you want dbg() somewhere, you could left a special comment. This script will process all specified files, change these comments to formal commands with unique stamps. After we set many thest things, we could check weenix's output and find if these dbg print exist or not. If exists, we change former dbg() to standard dbg() we want.
+If you want dbg() somewhere, you could left a special comment. This script will process all specified files, change these comments to dbg commands with unique stamps. After we set many thest things, we could check weenix's output and find if these dbg print exist or not. If exists, we change former dbg() to standard dbg() we want.
 
 ## HOW TO USE
 If you need a dbg() in example.c, simply type comment like
